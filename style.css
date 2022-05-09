@@ -1,0 +1,27 @@
+@import url('http://fonts.cdnfonts.com/css/common-pixel');
+
+html{
+  font-size: 30px;
+  font-family: 'Common Pixel', sans-serif;
+}
+
+body{
+  margin:0;
+  background-color: black;
+}
+
+div.movingObject {
+width: 90px;
+height:60px;
+background-color:lightgrey;
+position:fixed;
+text-align: center;
+padding-top: 20px;
+text-shadow: 3.5px 3.5px 2px pink, 4px 4px 2px blue;
+border-radius: 7px;
+}
+
+div.movingObject:hover {
+background-color: grey;
+text-shadow: 3.5px 3.5px 2px white;
+}
