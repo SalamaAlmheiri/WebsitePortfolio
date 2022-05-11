@@ -2,6 +2,9 @@
 
 $(document).ready(function(){
     animateDiv('.movingObject');
+    animateDiv('.gif1');
+    animateDiv('.gif2');
+    animateDiv('.gif3');
 });
 
 function makeNewPosition(){
@@ -18,7 +21,7 @@ function makeNewPosition(){
 
 function animateDiv(myclass){
     var newq = makeNewPosition();
-    $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
+    $(myclass).animate({ top: newq[0], left: newq[1] }, 1500,   function(){
       animateDiv(myclass);
     });
 };
