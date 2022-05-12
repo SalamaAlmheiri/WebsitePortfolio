@@ -128,6 +128,9 @@ body{
   font-weight: bold;
   font-size: 1.2rem;
 }
+.boxB:nth-child(2) a:hover{
+  color: purple;
+}
 
 .boxB:nth-child(2) img:hover{
   position: relative;
@@ -199,6 +202,10 @@ body{
   font-size: 1.2rem;
 }
 
+.boxC:nth-child(2) a:hover{
+  color: purple;
+}
+
 .boxC:nth-child(3){
   background-color: black;
   padding-top: 20px;
@@ -256,6 +263,10 @@ body{
   font-size: 1.2rem;
 }
 
+.boxD:nth-child(2) a:hover{
+  color: purple;
+}
+
 .boxD:nth-child(3){
   background-color: black;
   padding-top: 20px;
@@ -311,6 +322,10 @@ body{
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.boxE:nth-child(2) a:hover{
+  color: purple;
 }
 
 .boxE:nth-child(3){
