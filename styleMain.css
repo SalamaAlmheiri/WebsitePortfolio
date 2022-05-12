@@ -1,3 +1,5 @@
+/* Page 2: Main */
+
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@700&family=Henny+Penny&family=Indie+Flower&family=JetBrains+Mono&family=Londrina+Solid:wght@300&family=Love+Ya+Like+A+Sister&family=Montserrat:wght@300&family=Play&family=Playfair+Display&family=Press+Start+2P&family=VT323&display=swap');
 
 body{
@@ -68,10 +70,12 @@ body{
   margin-left: 5px;
   font-size: 15px;
   font-family: 'Press Start 2P', cursive;
+  border-radius: 10px;
 }
 
 .box:nth-child(2){
   font-family: 'Play', sans-serif;
+  font-size: 1.1rem;
   text-shadow: 0.7px 0.7px 4px white;
 }
 
@@ -113,10 +117,18 @@ body{
   margin-left: 5px;
   font-size: 15px;
   font-family: 'Press Start 2P', cursive;
+  border-radius: 10px;
 }
 .boxB:nth-child(2){
   text-shadow: 0.7px 0.7px 4px white;
 }
+
+.boxB:nth-child(2) p{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .boxB:nth-child(2) img:hover{
   position: relative;
   animation-name: moving1;
@@ -168,6 +180,7 @@ body{
   margin-left: 5px;
   font-size: 15px;
   font-family: 'Press Start 2P', cursive;
+  border-radius: 10px;
 }
 
 .boxC:nth-child(2){
@@ -178,6 +191,12 @@ body{
   position: relative;
   animation-name: moving1;
   animation-duration: 1s;
+}
+
+.boxC:nth-child(2) p{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .boxC:nth-child(3){
@@ -219,6 +238,7 @@ body{
   margin-left: 5px;
   font-size: 15px;
   font-family: 'Press Start 2P', cursive;
+  border-radius: 10px;
 }
 
 .boxD:nth-child(2){
@@ -228,6 +248,12 @@ body{
   position: relative;
   animation-name: moving1;
   animation-duration: 1s;
+}
+
+.boxD:nth-child(2) p{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .boxD:nth-child(3){
@@ -269,6 +295,7 @@ body{
   margin-left: 5px;
   font-size: 15px;
   font-family: 'Press Start 2P', cursive;
+  border-radius: 10px;
 }
 
 .boxE:nth-child(2){
@@ -280,6 +307,12 @@ body{
   animation-duration: 1s;
 }
 
+.boxE:nth-child(2) p{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .boxE:nth-child(3){
   background-color: black;
   padding-top: 20px;
@@ -287,18 +320,14 @@ body{
 }
 
 
+/* //////Smaller screen style///////// */
 @media screen and (max-width: 600px){
-  /* 768 */
-/*
-.wrapper{
-  display: block;
-} */
 
 .titleLetter{
   font-size: 50px;
 }
 
-/* A */
+/*//// A */
 .contentA {
   grid-template-columns: 40px 2fr 10px;
 }
@@ -312,7 +341,7 @@ body{
   display: none;
 }
 
-/* B */
+/*//// B */
 .contentB {
   grid-template-columns: 40px 2fr 10px;
 }
@@ -326,11 +355,16 @@ body{
   text-orientation: upright;
   font-size: 11px;
 }
+.boxE:nth-child(2) img:hover{
+  position: relative;
+  animation-name: moving1;
+  animation-duration: 1s;
+}
 .boxB:nth-child(3){
   display: none;
 }
 
-/* C */
+/*//// C */
 .contentC {
   grid-template-columns: 40px 2fr 10px;
 }
@@ -348,7 +382,7 @@ body{
   display: none;
 }
 
-/* D */
+/*//// D */
 .contentD {
   grid-template-columns: 40px 2fr 10px;
 }
@@ -366,7 +400,7 @@ body{
   display: none;
 }
 
-/* E */
+/*//// E */
 .contentE {
   grid-template-columns: 40px 2fr 10px;
 }

@@ -1,9 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/common-pixel');
+/* Page 1: 404 */
+
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Caveat:wght@700&family=Montserrat:wght@300&family=Playfair+Display&family=Press+Start+2P&family=VT323&display=swap');
 
 html{
   font-size: 30px;
-  /* font-family: 'Common Pixel', sans-serif; */
   font-family: 'Press Start 2P', cursive;
 }
 
@@ -20,7 +20,6 @@ position:fixed;
 text-align: center;
 padding-top: 20px;
 text-shadow: 3.5px 3.5px 2px pink, 4px 4px 2px blue;
-/* border-radius: 7px; */
 color:black;
 }
 
@@ -47,11 +46,10 @@ div.gif2 {
 width: 70px;
 height:70px;
 position:fixed;
-
 }
+
 div.gif3 {
 width: 50px;
 height:50px;
 position:fixed;
-
 }
